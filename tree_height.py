@@ -56,6 +56,7 @@ def main():
      file_name = input()
      if file_name.find("a") != -1:
         return
+     
      file_name = open(file_name)
      number_of_nodes = int(file_name.readline())
      nodes = file_name.readline()
