@@ -57,7 +57,7 @@ def main():
      if file_name.find("a") != -1:
         return
      
-     file_name = open(file_name)
+     file_name = open('./test/'+file_name)
      number_of_nodes = int(file_name.readline())
      nodes = file_name.readline()
      splited_nodes= nodes.split()
